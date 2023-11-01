@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
         const query = searchInput.value;
 
         if (query) {
-            // Update the API URL with the new endpoint and query parameters
             const apiUrl = `https://saavn.me/search/songs?query=${query}`;
             // const apiUrl = `http://localhost/search/songs?query=${query}`;
 
